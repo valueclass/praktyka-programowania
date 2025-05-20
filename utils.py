@@ -2,6 +2,7 @@
 Module that contains utility functions
 """
 
+
 def add(a: int, b: int) -> int:
     """
     Perform addition on arguments and return the result.
@@ -11,6 +12,7 @@ def add(a: int, b: int) -> int:
     :return: a + b
     """
     return a + b
+
 
 def subtract(a: int, b: int) -> int:
     """
@@ -22,6 +24,7 @@ def subtract(a: int, b: int) -> int:
     """
     return a - b
 
+
 def multiply(a: int, b: int) -> int:
     """
     Perform multiplication on arguments and return the result.
@@ -31,6 +34,7 @@ def multiply(a: int, b: int) -> int:
     :return: a * b
     """
     return a * b
+
 
 def divide(a: int, b: int) -> float:
     """
